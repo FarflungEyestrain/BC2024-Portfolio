@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #181818;
+  }
+
+  @font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/videotype.ttf') format('truetype');
+  }
+
+  header {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    font-family: 'New Times Roman', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    font-size: 50px;
+    color: rgb(255, 91, 45);
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Consolas', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+  }

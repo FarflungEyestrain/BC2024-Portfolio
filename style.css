@@ -1,7 +1,7 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: #181818;
+    background-color: #1f1f1f;
   }
 
   @font-face {
@@ -21,7 +21,7 @@ html {
     padding: 5px;
     margin: 5px;
     font-size: 50px;
-    color: rgb(255, 91, 45);
+    color: rgb(255, 71, 71);
     text-align: center;
   }
 
@@ -34,6 +34,11 @@ html {
     text-align: center;
   }
 
-  img {
-    
+  .image {
+    height: 300px;
+    width: 300px;
+    border: 5px double white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
   }

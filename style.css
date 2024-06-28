@@ -9,6 +9,11 @@ html {
   src: url('fonts/videotype.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('fonts/CarroisGothicSC-Regular.ttf') format('truetype');
+}
+
 button {
   font-family: 'Consolas', sans-serif;
   background-color: #707070;
@@ -54,11 +59,11 @@ header {
 }
 
 h1 {
-  font-family: 'Oswald', serif;
+  font-family: 'CustomFont2';
   padding: 5px;
   margin: 5px;
   font-size: 50px;
-  color: rgb(255, 71, 71);
+  color: rgb(255, 123, 71);
   text-align: center;
   text-decoration: underline;
 }
@@ -70,6 +75,15 @@ p {
   padding: 5px;
   margin: 5px;
   text-align: center;
+}
+
+.p2 {
+  font-family: 'Consolas', sans-serif;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 5px;
+  text-align: right;
 }
 
 footer {
@@ -91,7 +105,7 @@ footer {
 }
 
 .image2 {
-  height: 300px;
+  height: 400px;
   width: auto;
   border: 3px solid white;
   border-radius: 50%;

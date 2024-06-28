@@ -83,7 +83,10 @@ p {
   color: rgb(255, 255, 255);
   padding: 5px;
   margin: 5px;
-  text-align: right;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
 footer {

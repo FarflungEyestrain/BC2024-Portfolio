@@ -89,3 +89,12 @@ footer {
   display: flex;
   justify-content: center;
 }
+.image2 {
+  height: 300px;
+  width: auto;
+  border: 5px double white;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}

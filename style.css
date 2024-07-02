@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  width: 75%;
+  width: 98%;
   background-color: #ffffff;
   border: 5px solid rgb(171, 171, 171);
 }
@@ -49,6 +49,7 @@ button:hover {
   margin: auto;
   display: flex;
   justify-content: center;
+  border: 5px solid rgb(171, 171, 171);
 }
 
 header {

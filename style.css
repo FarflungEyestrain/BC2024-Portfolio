@@ -1,7 +1,52 @@
+.image1 {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.button1 {
+  font-family: 'Consolas', sans-serif;
+  background-color: rgb(127, 127, 127);
+  cursor: pointer;
+  margin: auto;
+  padding: 10px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.button2 {
+  font-family: 'Consolas', sans-serif;
+  background-color: rgb(127, 127, 127);
+  cursor: pointer;
+  margin: auto;
+  padding: 10px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
 html {
   height: 100%;
   width: 100%;
-  background-color: rgb(4, 0, 255);
+  background-color: rgb(65, 62, 255);
+}
+
+.image1 {
+width: 400px;
+height: 300px;
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 15px;
 }
 
 @font-face {
@@ -69,6 +114,14 @@ h1 {
   text-decoration: underline;
 }
 
+h2 {
+  margin: 15px;
+}
+
+li {
+  margin: 20px;
+}
+
 p {
   font-family: 'Consolas', sans-serif;
   font-size: 15px;
@@ -120,6 +173,7 @@ footer {
 .image3 {
   height: 165px;
   width: auto;
+  margin: auto;
   display: flex;
   justify-content: center;
   flex-direction: row;
